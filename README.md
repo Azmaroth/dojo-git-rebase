@@ -24,25 +24,27 @@ En local:
 
 ## Exercice 02 - Rebase Simple (sans conflit)
 
-1. Depuis `develop`, créez une branche à `votrenom`
+1. Depuis `training/<date du jour>-ex2`, créez une branche `votrenom`
 2. Effectuez plusieurs commits en créant/modifiant des fichiers
-3. Attendez que le formateur crée de nouveaux commits sur `develop` 
+3. Attendez que le formateur crée de nouveaux commits sur `training/<date du jour>-ex2`
 4. Récupérez ces modifications à l'aide d'un `rebase`
 5. Poussez cette mise à jour sur l'origine
 
 ## Exercice 03 - Rebase Simple (avec conflit)
 
-1. Tirez une branche `rebase_votrenom` partant de `master`
+1. Tirez une branche `rebase_votrenom` partant de `training/<date du jour>-ex3`
 2. Dans le fichier time.txt :
    - Mettez l’heure à jour
    - Ajoutez, en-dessous, le commentaire « Commit C »
 3. Commitez avec le commentaire « C »
-4. Réitérez en changeant « C » par « D » 
-5. Attendez que le formateur crée deux commits `E` & `F` sur la branche master en changeant l’heure
+4. Réitérez en changeant « C » par « D »
+5. Attendez que le formateur crée deux commits `E` & `F` sur la branche `training/<date du jour>-ex3` en changeant l’heure
 6. A l’aide d’un rebase, récupérez ces modifications et résolvez les conflits pour obtenir les commits dans l’ordre A, B, E, F, C, D
 7. Poussez cette mise à jour sur l'origine
 
 ## Exercice 04 - Rebase Interactif
+
+Tirez une branche `rebase-i_votrenom` partant de `training/<date du jour>-ex4`.
 
 ### Partie A - Ordre des commits
 
