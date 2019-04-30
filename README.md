@@ -4,6 +4,8 @@
 
 Ceci est le projet qu'il faudra utiliser lors du Dojo Git Rebase
 
+test
+
 ## Getting Started
 
 TODO:
