@@ -18,7 +18,7 @@ En local:
 1. Modifier un fichier du Repo
 2. Faites un `git stash`
 3. Créez un nouveau fichier
-4. Faites un `git stash`
+4. Faites un `git stash -u`
 5. Listez les stashs en cours
 6. Restaurez le premier stash créé
 
